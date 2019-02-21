@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="form.php" method="POST">
+        <label for="imie">Imię:</label><br />
+        <input type="text" name="imie" id="imie"><br />
+        <label for="nazwisko">Nazwisko:</label><br />
+        <input type="text" name="nazwisko" id="nazwisko"><br />
+        <label for="email">Mail:</label><br>
+        <input type="text" name="mail" id="mail"><br>
+        <label for="telefon">Telefon:</label><br>
+        <input type="number" name="quantity" id="telefon"><br>
+        <label for="wybor-miasta">Wybór Miasta:</label><br>
+        <select name="wybor-miasta"><br>
+            <option value="value1">Kraków</option><br>
+            <option value="value2" selected>Warszawa</option><br>
+            <option value="value3">Gdańsk</option><br>
+            </select><br>
+        <label for="plec">Płeć:</label><br>
+        <input type= "radio" name="gender">Mężczyzna<br>
+        <input type= "radio" name="gender">Kobieta<br>
+        <label for="">Zgoda na dane osobowe</label>
+        <input type= "checkbox" name="agreement"><br>
+        <label for="message">Wiadomość</label><br>
+        <textarea maxlength="1000" name="message"></textarea><br>
+        <input type="submit" value="Wyślij"><br>
+        </form>
+</body>
+</html>
