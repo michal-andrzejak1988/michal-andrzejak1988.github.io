@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+#main-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: blue;
+}
+
+#main-nav {
+    display: flex;
+    flex-basis: 10%;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#main-nav ul {
+    display: flex;
+    list-style-type: none;
+    width: 20%;
+    justify-content: space-between;
+    
+}
+
+#main-nav ul a {
+    color: #1ac056;
+    text-decoration: none;
+}
+
+header {
+    height: 100vh;
+}
+
+h1 {
+    height: 50vh;
+}
