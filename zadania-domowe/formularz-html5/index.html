@@ -23,10 +23,10 @@
         <input type="number" name="quantity" id="telefon"><br />
 
         <label for="wybor-miasta">Wybór Miasta:</label><br />
-        <select name="wybor-miasta"><br />
-            <option value="value1">Kraków</option><br />
-            <option value="value2" selected>Warszawa</option><br />
-            <option value="value3">Gdańsk</option><br />
+        <select name="wybor-miasta" id="wybor-miasta">
+            <option value="value1">Kraków</option>
+            <option value="value2" selected>Warszawa</option>
+            <option value="value3">Gdańsk</option>
         </select><br />
 
         <p>Płeć:</p><br />
@@ -37,11 +37,11 @@
             <input type="radio" name="gender">
         </label><br />
 
-        <label for="id">Zgoda na dane osobowe</label><br />
-        <input type="checkbox" name="agreement"><br />
+        <label for="agreement">Zgoda na dane osobowe</label><br />
+        <input type="checkbox" name="agreement" id="agreement"><br />
 
         <label for="message">Wiadomość:</label><br />
-        <textarea maxlength="1000" name="message"></textarea><br />
+        <textarea maxlength="1000" name="message" id="message"></textarea><br />
 
         <input type="submit" value="Wyślij"><br />
     </form>
