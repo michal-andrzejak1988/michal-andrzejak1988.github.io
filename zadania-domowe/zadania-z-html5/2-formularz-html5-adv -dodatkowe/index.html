@@ -8,40 +8,25 @@
 </head>
 <body>
     <form action="https://formspree.io/your@email.com" method="POST">
-        <label for="imie">Imię:</label><br />
-        <input type="text" name="imie" id="imie"><br />
 
-        <label for="nazwisko">Nazwisko:</label><br />
-        <input type="text" name="nazwisko" id="nazwisko"><br />
+        <label for="info o kliencie">Customer Info</label><br />
 
-        <label for="email">Mail:</label><br />
-        <input type="text" name="mail" id="email"><br />
+        <label for="imie">Name:</label><br />
+        <input type="text" name="imie" id="imie"> <br />
 
-        <label for="telefon">Telefon:</label><br>
-        <input type="number" name="quantity" id="telefon"><br />
+        <label for="telefon">Telephone:</label><br>
+        <input type="number" name="quantity" id="telefon"> <br />
 
-        <label for="wybor-miasta">Wybór Miasta:</label><br />
-        <select name="wybor-miasta" id="wybor-miasta">
-            <option value="value1">Kraków</option>
-            <option value="value2" selected>Warszawa</option>
-            <option value="value3">Gdańsk</option>
-        </select><br />
+        <label for="email">Email address:</label> <br />
+        <input type="text" name="mail" id="email"> <br />
 
-        <p>Płeć:</p><br />
-        <label>Mężczyzna:
-            <input type="radio" name="gender">
-        </label><br />
-        <label>Kobieta:
-            <input type="radio" name="gender">
-        </label><br />
+        <label for="książki">Books:</label> <br />
 
-        <label for="agreement">Zgoda na dane osobowe</label><br />
-        <input type="checkbox" name="agreement" id="agreement"><br />
+        <label for="ilość">Quantity (Maximum 5):</label> <br />
+        <input type="text" name="quantity" id="number"> <br />
 
-        <label for="message">Wiadomość:</label><br />
-        <textarea maxlength="1000" name="message" id="message"></textarea><br />
+        <button>Submit</button>
 
-        <input type="submit" value="Wyślij"><br />
     </form>
 </body>
 </html>
