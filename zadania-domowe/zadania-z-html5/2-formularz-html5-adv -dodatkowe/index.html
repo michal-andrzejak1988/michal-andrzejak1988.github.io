@@ -1,36 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>2-formularz-html5-adv -dodatkowe</title>
 </head>
+
 <body>
-    <form action="https://formspree.io/your@email.com" method="POST">
+    <form action="https://formspree.io/your@email.com" method="POST" autocomplete="on">
 
-        <label for="text">A Simple Form</label> <br />
+        <b> <div style='color:darkblue'> A Simple Form </div> </b>
+        <i> <div style='color:cornflowerblue'> Form Fundametals </div> </i>
 
-        <label for="text">Form Fundamentals</label> <br />
+        <fieldset>
 
-        <label for="info o kliencie">Customer Info</label> <br />
+            <label for="info o kliencie">Customer Info</label> <br />
 
-        <label for="imie">Name:</label> <br />
-        <input type="text" name="imie" id="imie" placeholder="Enter your name" autofocus> <br />
+            <label for="imie">Name:</label> <br />
+            <input type="text" name="imie" id="imie" placeholder="Enter your name" autofocus> <br />
 
-        <label for="telefon">Telephone:</label><br>
-        <input type="number" name="quantity" id="telefon" placeholder="Pattern: 1-234-567-8910"> <br />
+            <label for="telefon">Telephone:</label><br>
+            <input type="number" name="quantity" id="telefon" placeholder="Pattern: 1-234-567-8910"> <br />
 
-        <label for="email">Email address:</label> <br />
-        <input type="text" name="mail" id="email" placeholder="Enter your email address"> <br />
+            <label for="email">Email address:</label> <br />
+            <input type="text" name="mail" id="email" placeholder="Enter your email address"> <br />
 
-        <label for="książki">Books:</label> <br />
+        </fieldset>
 
-        <label for="ilość">Quantity (Maximum 5):</label> <br />
-        <input type="text" name="quantity" id="number"> <br />
+
+        <fieldset>
+
+            <label for="książki">Books:</label> <br />
+
+            <label for="ilość">Quantity (Maximum 5):</label> <br />
+            <input type="number" name="quantity" id="number" min="1" max="5"> <br />
+
+        </fieldset>
 
         <button>Submit</button>
 
     </form>
 </body>
+
 </html>
