@@ -12,23 +12,24 @@
 <body>
     <form action="https://formspree.io/your@email.com" method="POST" autocomplete="on">
 
-        <b>
-            <div style="color:darkblue"> A Simple Form </div>
-        </b>
+        <header>
 
-        <i>
-            <div style="color:cornflowerblue"> Form Fundametals </div>
-        </i>
+            <h1> A Simple Form </h1>
+
+            <h2> Form Fundametals </h2>
+
+        </header>
 
         <fieldset>
 
-            <label for="info">Customer Info</label> <br />
+            <p>Customer Info</p> <br />
 
             <label for="name">Name:</label> <br />
             <input type="text" name="name" id="name" placeholder="Enter your name" autofocus> <br />
 
             <label for="telephone">Telephone:</label> <br />
-            <input type="number" name="quantity" id="telephone" pattern="[0-9]{1}[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="Pattern: 1-234-567-8910"> <br />
+            <input type="tel" name="quantity" id="telephone" pattern="[0-9]{1}[0-9]{3}[0-9]{3}[0-9]{4}"
+                placeholder="Pattern: 1-234-567-8910"> <br />
 
             <label for="email">Email address:</label> <br />
             <input type="text" name="mail" id="email" placeholder="Enter your email address"> <br />
@@ -37,14 +38,14 @@
 
         <fieldset>
 
-            <label for="books">Books:</label> <br />
+            <p>Books:</p> <br />
 
-            <label for="quantity">Quantity (Maximum 5):</label> <br />
+            <label for="number">Quantity (Maximum 5):</label> <br />
             <input type="number" name="quantity" id="number" min="1" max="5"> <br />
 
         </fieldset>
 
-        <button>Submit</button>
+        <button type="submit">Submit</button>
 
     </form>
 </body>

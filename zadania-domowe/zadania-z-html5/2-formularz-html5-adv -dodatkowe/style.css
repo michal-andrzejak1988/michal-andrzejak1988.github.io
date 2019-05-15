@@ -1,3 +1,15 @@
+header {
+    font-weight: bold;
+}
+
+h1 {
+    color:darkblue;
+}
+
+h2 {
+    color:cornflowerblue;
+}
+
 fieldset {
     border: 2px solid #a1a1a1;
     padding: 10px 10px; 
