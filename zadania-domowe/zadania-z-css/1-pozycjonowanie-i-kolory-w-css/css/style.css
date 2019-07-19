@@ -1,5 +1,120 @@
-p {
+/* kwadraty */
+
+p1 {
     border: black;
-    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    color: red;
+    }
+
+p2 {
+    border: black;
+    width: 100px;
+    height: 100px;
+    color: blue;
+    }
+
+p3 {
+    border: black;
+    width: 100px;
+    height: 100px;
+    color: green;
+    }
+
+p4 {
+    border: black;
+    width: 100px;
+    height: 100px;
+    color: yellow;
+    }
+
+p5 {
+    border: black;
+    width: 100px;
+    height: 100px;
+    color: black;
+    }
+
+p6 {
+    border: black;
+    width: 100px;
+    height: 100px;
+    color: orange;
+    }
+
+p7 {
+    border: black;
+    width: 100px;
+     height: 100px;
+    color: violet;
+    }
+
+p8 {
+    border: black;
+    width: 100px;
+    height: 100px;
+     color: gray;
+    }
+
+p9 {
+    border: black;
+    width: 100px;
+    height: 100px;
     color: pink;
-}
+    }
+
+/* koła */
+
+p10 {
+    border: black;
+    border-radius: 100px;
+    color: pink;
+    }
+
+p11 {
+    border: black;
+    border-radius: 100px;
+    color: gray;
+    }
+
+p12 {
+    border: black;
+    border-radius: 100px;
+    color: violet;
+    }
+
+p13 {
+    border: black;
+    border-radius: 100px;
+    color: green;
+    }
+
+p14 {
+    border: black;
+    border-radius: 100px;
+    color: red;
+    }
+
+p15 {
+    border: black;
+    border-radius: 100px;
+    color: blue;
+    }
+
+p16 {
+    border: black;
+    border-radius: 100px;
+    color: orange;
+    }
+
+p17 {
+    border: black;
+    border-radius: 100px;
+    color: yellow;
+    }
+
+p18 {
+    border: black;
+    border-radius: 100px;
+    color: black;
+    }
