@@ -5,116 +5,123 @@ p1 {
     width: 100px;
     height: 100px;
     color: red;
-    }
+}
 
 p2 {
     border: black;
     width: 100px;
     height: 100px;
     color: blue;
-    }
+}
 
 p3 {
     border: black;
     width: 100px;
     height: 100px;
     color: green;
-    }
+}
 
 p4 {
     border: black;
     width: 100px;
     height: 100px;
     color: yellow;
-    }
+}
 
 p5 {
     border: black;
     width: 100px;
     height: 100px;
     color: black;
-    }
+}
 
 p6 {
     border: black;
     width: 100px;
     height: 100px;
     color: orange;
-    }
+}
 
 p7 {
     border: black;
     width: 100px;
      height: 100px;
     color: violet;
-    }
+}
 
 p8 {
     border: black;
     width: 100px;
     height: 100px;
      color: gray;
-    }
+}
 
 p9 {
     border: black;
     width: 100px;
     height: 100px;
     color: pink;
-    }
-
-/* koła */
+}
 
 p10 {
-    border: black;
-    border-radius: 100px;
-    color: pink;
-    }
+    border: white;
+    width: 300px;
+    height: 300px;
+    color: white;
+}
+
+/* koła */
 
 p11 {
     border: black;
     border-radius: 100px;
-    color: gray;
-    }
+    color: pink;
+}
 
 p12 {
     border: black;
     border-radius: 100px;
-    color: violet;
-    }
+    color: gray;
+}
 
 p13 {
     border: black;
     border-radius: 100px;
-    color: green;
-    }
+    color: violet;
+}
 
 p14 {
     border: black;
     border-radius: 100px;
-    color: red;
-    }
+    color: green;
+}
 
 p15 {
     border: black;
     border-radius: 100px;
-    color: blue;
-    }
+    color: red;
+}
 
 p16 {
     border: black;
     border-radius: 100px;
-    color: orange;
-    }
+    color: blue;
+}
 
 p17 {
     border: black;
     border-radius: 100px;
-    color: yellow;
-    }
+    color: orange;
+}
 
 p18 {
     border: black;
     border-radius: 100px;
+    color: yellow;
+}
+
+p19 {
+    border: black;
+    border-radius: 100px;
     color: black;
-    }
+}
