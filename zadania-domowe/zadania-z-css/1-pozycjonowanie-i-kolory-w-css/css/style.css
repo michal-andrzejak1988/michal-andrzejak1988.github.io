@@ -1,127 +1,152 @@
-/* kwadraty */
-
-p1 {
-    border: black;
-    width: 100px;
-    height: 100px;
-    color: red;
-}
-
-p2 {
-    border: black;
-    width: 100px;
-    height: 100px;
-    color: blue;
-}
-
-p3 {
-    border: black;
-    width: 100px;
-    height: 100px;
-    color: green;
-}
-
-p4 {
-    border: black;
-    width: 100px;
-    height: 100px;
-    color: yellow;
-}
-
-p5 {
-    border: black;
-    width: 100px;
-    height: 100px;
-    color: black;
-}
-
-p6 {
-    border: black;
-    width: 100px;
-    height: 100px;
-    color: orange;
-}
-
-p7 {
-    border: black;
-    width: 100px;
-     height: 100px;
-    color: violet;
-}
-
-p8 {
-    border: black;
-    width: 100px;
-    height: 100px;
-     color: gray;
-}
-
-p9 {
-    border: black;
-    width: 100px;
-    height: 100px;
-    color: pink;
-}
-
-p10 {
-    border: white;
-    width: 300px;
-    height: 300px;
-    color: white;
-}
-
-/* koła */
-
-p11 {
-    border: black;
-    border-radius: 100px;
-    color: pink;
-}
-
-p12 {
-    border: black;
-    border-radius: 100px;
-    color: gray;
-}
-
-p13 {
-    border: black;
-    border-radius: 100px;
-    color: violet;
-}
-
-p14 {
-    border: black;
-    border-radius: 100px;
-    color: green;
-}
-
-p15 {
-    border: black;
-    border-radius: 100px;
-    color: red;
-}
-
-p16 {
-    border: black;
-    border-radius: 100px;
-    color: blue;
-}
-
-p17 {
-    border: black;
-    border-radius: 100px;
-    color: orange;
-}
-
-p18 {
-    border: black;
-    border-radius: 100px;
-    color: yellow;
-}
-
-p19 {
-    border: black;
-    border-radius: 100px;
-    color: black;
-}
+.square {
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    position: relative;
+  }
+  .box {
+    width: 198px;
+    height: 198px;
+    position: absolute;
+  }
+  .radius { 
+    border: 1px solid black;
+    border-radius: 50%; 
+    position: absolute;
+    width: 98px;
+    height: 98px;
+    border: 1px solid white;
+  }
+  .circle {
+    
+    left: 0;
+    top: 0;
+    background-color: red;
+  }
+  
+  .circle-inner {
+   background-color: pink;
+    left: 25%;
+    top: 25%;
+  }
+  
+  .circle {
+    top: 0;
+    left: 0;
+    background-color: red;
+    
+  }
+  
+  .circle-inner {
+    
+    background-color: pink;
+    left: 25%;
+    top: 25%;
+    
+  }
+  
+  .circle2 {
+    top: 0;
+    left: 200px;
+    background-color: blue;
+    
+  }
+  
+  .circle-inner2 {
+    background-color: grey;
+    left: 25%;
+    top: 25%;
+    
+  }
+  
+  .circle3 {
+    top: 0;
+    left: 400px;
+    background-color: green;
+    
+  }
+  
+  .circle-inner3 {
+    border: 1px solid white;
+    background-color: purple;
+    left: 25%;
+    top: 25%;
+  
+  }
+  .circle4 {
+    top: 200px;
+    left: 0;
+    background-color: yellow;
+    
+  }
+  
+  .circle-inner4 {
+    background-color: green;
+    left: 25%;
+    top: 25%;
+  }
+  
+  .circle5 {
+    top: 200px;
+    left: 200px;
+    background-color: black;
+    
+  }
+  
+  .circle-inner5 {
+    background-color: red;
+    left: 25%;
+    top: 25%;
+  
+  }
+  
+  .circle6 {
+    top: 200px;
+    left: 400px;
+    background-color: orange;
+    
+  }
+  
+  .circle-inner6 {
+    background-color: blue;
+    left: 25%;
+    top: 25%;
+  }
+  
+  .circle7 {
+    top: 400px;
+    left: 0;
+    background-color: purple;
+    
+  }
+  
+  .circle-inner7 {
+    background-color: orange;
+    left: 25%;
+    top: 25%;
+  }
+  
+  .circle8 {
+    top: 400px;
+    left: 200px;
+    background-color: grey;
+    
+  }
+  
+  .circle-inner8 {
+    background-color: yellow;
+    left: 25%;
+    top: 25%;
+  }
+  
+  .circle9 {
+    top: 400px;
+    left: 400px;
+    background-color: pink;
+  }
+  
+  .circle-inner9 {
+  background-color: black;
+    left: 25%;
+    top: 25%;
+  }  
