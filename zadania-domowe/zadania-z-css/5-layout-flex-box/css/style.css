@@ -1,34 +1,34 @@
 header {
     color: #000;
     background-color: red;
-    height: 10px;
-    width: 100px;
+    height: 10vh;
+    width: 100vh;
 }
 
 h1 {
     color: #000;
     background-color: green;
-    height: 10px;
-    width: 100px;
+    height: 10vh;
+    width: 100vh;
 }
 
 h2 {
     color: #000;
     background-color: pink;
-    height: 10px;
-    width: 100px;
+    height: 10vh;
+    width: 100vh;
 }
 
 p {
     color: #000;
     background-color: lightblue;
-    height: 10px;
-    width: 100px;
+    height: 10vh;
+    width: 100vh;
 }
 
 footer {
     color: #000;
     background-color: purple;
-    height: 10px;
-    width: 100px;
+    height: 10vh;
+    width: 100vh;
 }
