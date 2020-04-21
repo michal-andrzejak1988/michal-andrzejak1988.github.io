@@ -1,0 +1,78 @@
+
+body{
+    background-color: black;
+    color:white;
+}
+
+#animation{
+    position: relative;
+    width:200px;
+    height:150px;
+    text-align: center;
+    margin-top:150px;
+    margin-left:150px;
+    font-size:150px;
+}
+.number{
+    position: absolute;
+}
+
+#ten, #nine, #eight, #seven, #six, #five, #four, #three, #two, #one, #css {
+  animation: 1s fadeIn;
+    visibility: hidden;
+}
+
+#nine{
+    animation-delay: 1s;
+}
+#eight{
+    animation-delay: 2s;
+}
+#seven{
+    animation-delay: 3s;
+}
+#six{
+    animation-delay: 4s;
+}
+#five{
+    animation-delay: 5s;
+}
+#four{
+    animation-delay: 6s;
+}
+#three{
+    animation-delay: 7s;
+}
+#two{
+    animation-delay: 8s;
+}
+#one{
+    animation-delay: 9s;
+}
+#css{
+    animation: 1s fadeInOut;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+    font-size:70px;
+}
+
+@keyframes fadeIn {
+    0%{
+        visibility: hidden;
+    }
+    99%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+
+@keyframes fadeInOut {
+    0%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
